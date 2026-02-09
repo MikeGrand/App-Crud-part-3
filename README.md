@@ -20,6 +20,7 @@ El sistema está dividido en tres partes:
 
 - Crear registros desde la aplicación móvil
 - Listar registros obtenidos desde la API REST
+- visualizar todos los registros
 - Editar información existente
 - Eliminar registros
 - Validación básica de datos
@@ -31,7 +32,7 @@ El sistema está dividido en tres partes:
 ## Tecnologías utilizadas
 
 - Android Studio
-- Lenguaje: **Java / Kotlin** *(ajusta según tu caso)*
+- Lenguaje: **Java / Kotlin** 
 - XML para interfaces
 - Consumo de API REST
 - Gradle
@@ -49,5 +50,6 @@ La aplicación consume una **API REST desarrollada en PHP**, la cual:
 - Aplica prevención básica contra XSS (`htmlspecialchars`)
 
 > ⚠️ Este repositorio **no incluye** la API ni la base de datos, solo el cliente móvil.
+> toda la conexion esta en la parte 1
 
 
