@@ -1,26 +1,53 @@
-App CRUD Android – Parte 3
+# App CRUD Android – Parte 3
 
-Aplicación Android desarrollada en **Android Studio** como parte de un proyecto académico, enfocada en la implementación de un **CRUD (Crear, Leer, Actualizar y Eliminar)** utilizando una arquitectura básica y buenas prácticas.
+Este proyecto corresponde a la **tercera parte de un sistema de registro multiplataforma**, enfocado en el desarrollo de una **aplicación móvil Android** que consume una **API REST**, permitiendo realizar operaciones CRUD (Crear, Leer, Actualizar y Eliminar) mediante una arquitectura basada en servicios.
 
-Descripción del proyecto
+La aplicación móvil reutiliza la API desarrollada en la **Parte 1**, demostrando la escalabilidad y reutilización del backend en diferentes plataformas.
 
-Esta aplicación permite gestionar registros mediante operaciones CRUD, mostrando cómo interactuar con datos desde una app Android.  
-El proyecto forma parte de la **parte 3** del desarrollo, donde se integran mejoras funcionales y estructurales.
+---
 
-Tecnologías utilizadas
+## Descripción del sistema completo
+
+El sistema está dividido en tres partes:
+
+- **Parte 1:** Aplicación web + API REST (PHP + MySQL)
+- **Parte 2:** Aplicación de escritorio (C# / Windows Forms)
+- **Parte 3:** Aplicación móvil Android (**este repositorio**)
+
+---
+
+## Funcionalidades
+
+- Crear registros desde la aplicación móvil
+- Listar registros obtenidos desde la API REST
+- Editar información existente
+- Eliminar registros
+- Validación básica de datos
+- Comunicación mediante respuestas JSON
+- Arquitectura basada en servicios (cliente / API)
+
+---
+
+## Tecnologías utilizadas
 
 - Android Studio
 - Lenguaje: **Java / Kotlin** *(ajusta según tu caso)*
-- Gradle
 - XML para interfaces
-- SQLite / API REST *(ajusta según lo que uses)*
+- Consumo de API REST
+- Gradle
+- Git & GitHub
 
-Funcionalidades
+---
 
-- Crear nuevos registros
-- Listar registros almacenados
-- Editar información existente
-- Eliminar registros
-- Interfaz simple y funcional
+## Backend (API REST)
+
+La aplicación consume una **API REST desarrollada en PHP**, la cual:
+
+- Utiliza MySQL como base de datos
+- Devuelve respuestas en formato JSON
+- Implementa validaciones básicas
+- Aplica prevención básica contra XSS (`htmlspecialchars`)
+
+> ⚠️ Este repositorio **no incluye** la API ni la base de datos, solo el cliente móvil.
 
 
