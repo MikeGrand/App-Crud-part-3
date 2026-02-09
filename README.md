@@ -1,4 +1,4 @@
-# App CRUD Android – Parte 3
+# android-registration-app-part-3
 
 Este proyecto corresponde a la **tercera parte de un sistema de registro multiplataforma**, enfocado en el desarrollo de una **aplicación móvil Android** que consume una **API REST**, permitiendo realizar operaciones donde el sistema permite crear, listar, modificar, eliminar y ver los registros mediante una arquitectura basada en servicios.
 
