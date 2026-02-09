@@ -1,4 +1,4 @@
-# App CRUD Android – Parte 3
+App CRUD Android – Parte 3
 
 Aplicación Android desarrollada en **Android Studio** como parte de un proyecto académico, enfocada en la implementación de un **CRUD (Crear, Leer, Actualizar y Eliminar)** utilizando una arquitectura básica y buenas prácticas.
 
